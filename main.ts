@@ -1,3 +1,12 @@
+basic.showLeds(`
+    . # # # .
+    # # # # #
+    # # # # #
+    # # # # #
+    . # # # .
+    `)
+basic.showString("Baseball ")
+basic.clearScreen()
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         servos.P0.run(100)
